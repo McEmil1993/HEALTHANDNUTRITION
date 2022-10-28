@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Slide_Two">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+
+        android:background="@drawable/b2"
+
+        android:layout_width="fill_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="-90dp"
+                android:layout_marginBottom="0dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/in_2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_200"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"
+                android:text="Proper nutrition"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#4E4C4C"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:layout_marginBottom="60dp"
+                android:text="Eat more fruits, vegetables, whole grain foods, fish, poultry, nuts and low fat dairy foods, Cut back on foods that are high in saturated fat, cholesterol, limit sodium, sweet, sugary drinks, and red meats."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4E4C4C"
+                android:onClick="Open3rdActivity"
+                android:text="Skip"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
